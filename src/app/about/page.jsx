@@ -46,6 +46,12 @@ const About = () => {
             suscipit eos. Animi quibusdam cum omnis officiis voluptatum quo ea
             eveniet? Lorem ipsum dolor sit amet consectetur adipisicing elit. -
             Creative Illustrations
+            <br />
+            <br /> - Dynamic Websites
+            <br />
+            <br /> - Fast and Handy
+            <br />
+            <br /> - Mobile Apps
           </p>
           <Button url="/contact" text="Contact" />
         </div>
