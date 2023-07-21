@@ -1,6 +1,3 @@
-.container {
-}
-
 .imgContainer {
   width: 100%;
   height: 300px;
@@ -38,4 +35,16 @@
   font-size: 18px;
   font-weight: 300;
   text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .textContainer {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .item {
+    margin-top: 10px;
+  }
+
 }

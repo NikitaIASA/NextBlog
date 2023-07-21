@@ -14,9 +14,9 @@ const About = () => {
           className={styles.img}
         />
         <div className={styles.imgText}>
-          <h1 className={styles.imgTitle}>Digital Storytellers</h1>
+          <h1 className={styles.imgTitle}>*Title*</h1>
           <h2 className={styles.imgDesc}>
-            Handcrafting award winning digital experiences
+            *Description lorem ipsum dolor sit *
           </h2>
         </div>
       </div>
@@ -53,7 +53,10 @@ const About = () => {
             <br />
             <br /> - Mobile Apps
           </p>
-          <Button url="/contact" text="Contact" />
+          <Button
+            url="/contact"
+            text="Contact"
+          />
         </div>
       </div>
     </div>

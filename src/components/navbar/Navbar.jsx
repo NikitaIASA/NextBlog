@@ -17,11 +17,11 @@ const links = [
     title: "Portfolio",
     url: "/portfolio",
   },
-  {
-    id: 3,
-    title: "Blog",
-    url: "/blog",
-  },
+  // {
+  //   id: 3,
+  //   title: "Blog",
+  //   url: "/blog",
+  // },
   {
     id: 4,
     title: "About",
@@ -32,11 +32,11 @@ const links = [
     title: "Contact",
     url: "/contact",
   },
-  {
-    id: 6,
-    title: "Dashboard",
-    url: "/dashboard",
-  },
+  // {
+  //   id: 6,
+  //   title: "Dashboard",
+  //   url: "/dashboard",
+  // },
 ];
 
 const Navbar = () => {
@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <Link href="/" className={styles.logo}>
-        lamamia
+        OurLogo
       </Link>
       <div className={styles.links}>
         <DarkModeToggle />
