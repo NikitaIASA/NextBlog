@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "@/components/Button/Button";
 
 export const metadata = {
-  title: "Lama Dev Contact Information",
+  title: "Contact Information",
   description: "This is Contact Page",
 };
 
@@ -14,12 +14,13 @@ const Contact = () => {
       <h1 className={styles.title}>Lets Keep in Touch</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
-          <Image
+          {/* <Image
             src="/contact.png"
             alt=""
             fill={true}
             className={styles.image}
-          />
+          /> */}
+          <img className={styles.image} src="/contact.png" alt="" />
         </div>
         <form className={styles.form}>
           <input type="text" placeholder="name" className={styles.input} />
@@ -30,7 +31,7 @@ const Contact = () => {
             cols="30"
             rows="10"
           ></textarea>
-          <Button url="#" text="Send"/>
+          <Button url="#" text="Send" />
         </form>
       </div>
     </div>
