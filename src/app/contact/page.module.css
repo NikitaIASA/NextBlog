@@ -66,6 +66,7 @@
 
   .content {
     flex-direction: column;
+    gap: 50px;
   }
 
   .image {

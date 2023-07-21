@@ -54,4 +54,8 @@
   .item:nth-child(2n + 1) {
     flex-direction: column;
   }
+
+  .img {
+    width: 250px;
+  }
 }
